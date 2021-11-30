@@ -215,7 +215,7 @@ p{
 .product_wrapper{
     margin: 0;
     padding: 104px 0 0;
-    background:url(images/banner.png) no-repeat center;
+    background:url(https://silvercrest-netizens.netlify.app/images/banner.png) no-repeat center;
     background-size: cover;
     position: relative;
     @media screen and (max-width:1366px) {
@@ -229,7 +229,7 @@ p{
     }
     &:before{
         content: "";
-        background: rgba(183, 30, 58, 0.89) url(images/banner-mockup.png) no-repeat;
+        background: rgba(183, 30, 58, 0.89) url(https://silvercrest-netizens.netlify.app/images/banner-mockup.png) no-repeat;
         background-position: top 0 left 0;
         background-size: contain;
         width: 100%;
@@ -510,7 +510,7 @@ p{
                         transition: background-color 5000s ease-in-out 0s;
                     }
                     select{
-                        background-image:url(images/dropdown.png);
+                        background-image:url(https://silvercrest-netizens.netlify.app/images/dropdown.png);
                         background-repeat: no-repeat;
                         background-position: right 20px center;
                         color: #888888;          
@@ -547,7 +547,7 @@ p{
                                 border:1px solid #05060a;                    
                             }
                             &:checked[type=checkbox] {
-                                background-image: url(images/right.svg);
+                                background-image: url(https://silvercrest-netizens.netlify.app/images/right.svg);
                                 background-color: $lightBlack;
                             }
                         }
@@ -691,7 +691,7 @@ p{
             top: -180px;
             width: 400px;
             height: 410px;
-            background: url(images/mockup.png) no-repeat center;
+            background: url(https://silvercrest-netizens.netlify.app/images/mockup.png) no-repeat center;
             background-size: contain;
             @media screen and (max-width:1366px){
                 content: none;
@@ -860,7 +860,7 @@ p{
             top: -320px;
             width: 400px;
             height: 410px;
-            background: url(images/mockup.png) no-repeat center;
+            background: url(https://silvercrest-netizens.netlify.app/images/mockup.png) no-repeat center;
             background-size: contain;
             transform: rotateY(180deg);
             @media screen and (max-width:1366px){
@@ -1015,7 +1015,7 @@ p{
             top: -280px;
             width: 400px;
             height: 410px;
-            background: url(images/mockup.png) no-repeat center;
+            background: url(https://silvercrest-netizens.netlify.app/images/mockup.png) no-repeat center;
             background-size: contain;
             @media screen and (max-width:1366px){
                 content: none;
