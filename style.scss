@@ -881,6 +881,7 @@ p{
             @media screen and (max-width:1080px){
                 padding-bottom: 10px;
             }
+           
             &:after{
                 content: "";
                 position: absolute;
@@ -890,6 +891,11 @@ p{
                 left: 0;
                 border: 1px solid #292929;
                 border-radius: 26px;
+            }
+            &:hover{
+                &::after{
+                    border: 1px solid #B71E3A;
+                }
             }
             &:nth-child(4n + 4){
                 margin-right: 0;
