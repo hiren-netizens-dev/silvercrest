@@ -1,0 +1,346 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Silvercrest</title>
+	
+	<!-- META TAG START HERE -->
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0" />
+	<!-- META TAG END'S HERE -->
+
+	<!-- FAVICON -->
+	<link href="https://silvercrest-netizens.netlify.app/images/favicon.svg" rel="shortcut icon" type="image/x-icon" />
+
+		<!-- LOCAL STYLE -->
+	<link rel="stylesheet" href="https://silvercrest-netizens.netlify.app/style.css">
+  
+</head>
+<body>
+
+	<header>
+		<!-- TOP BAR PARAGRAPH START HERE -->
+		<div class="topbar">
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.  Aliquam lorem ante, dapibus in,</p>
+		</div>
+		<div class="topbar topbar2">
+			<div class="timing">
+				<span data-i18n="[html]lp-countdown">Please note! You have limited time:</span>
+				<span id="up-comming-time-2"></span>
+				<div class="count">
+					<div id="timer"></div>
+				</div>
+				<input type="hidden" value="" id="hiddenTime">
+			</div>
+		</div>
+		<!-- TOP BAR PARAGRAPH END'S HERE -->
+	</header>
+
+	<!-- SECTION START HERE -->
+	<section>
+
+		<!-- PRODUCT BLOCK START HERE -->
+		<div class="product_wrapper">
+			<div class="container"> <!-- CONTAINER START -->
+				<div class="product_block">
+
+					<!-- LEFT SIDE BLOCK START HERE -->
+					<div class="form_wrapper">
+						<div class="product_title">
+							<h1>The Monsieur <br> Cuisine édition plus <br> - the multi - talent</h1>
+						</div>
+						<!-- FORM BLOCK START HERE -->
+						<div class="form_block">
+							<form action="#!" method="POST">
+								<div class="row">
+									<div class="col-12">										
+										<div class="title">
+											<label>Fill In your Information</label>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-6">
+										<!-- FIRST NAME FORM GROUP START -->
+										<div class="form-group">
+											<input type="text" name="firstname" placeholder="First Name" class="form-control" required>
+										</div>
+										<!-- FIRST NAME FORM GROUP END'S -->
+									</div>
+									<div class="col-6">
+										<!-- LAST NAME FORM GROUP START -->
+										<div class="form-group">
+											<input type="text" name="lastname" placeholder="Last Name" class="form-control" required>
+										</div>
+										<!-- LAST NAME FORM GROUP END'S -->
+									</div>
+								</div>
+								<!-- ADDRESS FORM GROUP START -->
+								<div class="form-group">
+									<input type="text" name="address" class="form-control" placeholder="Address" required>
+								</div>
+								<!-- ADDRESS FORM GROUP END'S -->
+								<div class="row">
+									<div class="col-6">
+										<!-- ZIP CODE FORM GROUP START -->
+										<div class="form-group">
+											<input type="text" name="zipcode" class="form-control" placeholder="Zip Code" required>
+										</div>
+										<!-- ZIP CODE FORM GROUP END'S -->
+									</div>
+									<div class="col-6">
+										<!-- CITY FORM GROUP START -->
+										<div class="form-group">
+											<input type="text" name="city" class="form-control" placeholder="City" required>
+										</div>
+										<!-- CITY FORM GROUP END'S -->
+									</div>
+								</div>
+								<!-- STATE FORM GROUP START -->
+								<div class="form-group">
+									<select class="form-control" name="state" required="" id="select" onchange="myFunction()">
+										<option value="" disabled selected>State</option>
+										<option value="AL">Alabama</option>
+										<option value="AK">Alaska</option>
+										<option value="AZ">Arizona</option>
+										<option value="AR">Arkansas</option>
+										<option value="CA">California</option>
+										<option value="CO">Colorado</option>
+										<option value="CT">Connecticut</option>
+										<option value="DE">Delaware</option>
+										<option value="DC">District of Columbia</option>
+										<option value="FL">Florida</option>
+										<option value="GA">Georgia</option>
+										<option value="HI">Hawaii</option>
+									</select>
+								</div>
+								<!-- STATE FORM GROUP END'S -->
+								<!-- PHONE FORM GROUP START -->
+								<div class="form-group">
+									<input type="number" name="phone" class="form-control" placeholder="Phone" required>
+								</div>
+								<!-- PHONE FORM GROUP END'S -->
+								<!-- E-MAIL FORM GROUP START -->
+								<div class="form-group">
+									<input type="email" name="email" class="form-control" placeholder="E-mail" required>
+								</div>
+								<!-- E-MAIL FORM GROUP END'S -->
+								<!-- FORM CHECK BOX START -->
+								<div class="form-group">
+									<div class="form-check">
+										<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required>
+										<label class="form-check-label" for="flexCheckDefault">
+											I am Over 18 years old and accept Terms of Services
+										</label>
+									  </div>
+								</div>
+								<!-- FORM CHECK BOX END'S -->
+								<!-- FORM SUBMIT BUTTON START -->
+								<button type="submit" class="btn">Register Now</button>
+								<!-- FORM SUBMIT BUTTON END'S -->
+							</form>
+						</div>
+						<!-- FORM BLOCK END'S HERE -->
+					</div>
+					<!-- LEFT SIDE BLOCK END'S HERE -->
+					
+					<!-- RIGHT SIDE BLOCK START HERE -->
+					<div class="images_wrapper">
+						<div class="product_title">
+							<!-- <label>Here is the brand new</label> -->
+							<h1>The Monsieur <br> Cuisine édition plus <br> - the multi - talent</h1>
+						</div>
+						<div id="black" class="img-tab active">
+							<img src="https://silvercrest-netizens.netlify.app/images/silvercrest.png" alt="silvercrest mixer">
+							<div class="price_block">
+								<span>PREMIUM</span>
+								<h2>$13.99</h2>
+							</div>
+						</div>
+						<!-- IF YOU ADD MORE DIV(IMAGES) HERE THAN YOU WANT TO CREATE  -->
+					</div>
+					<!-- RIGHT SIDE BLOCK START HERE -->
+				</div>
+			</div> <!-- CONTAINER END'S -->
+		</div>
+		<!-- PRODUCT BLOCK END'S HERE -->
+
+		<!--  ASSISTANT BLOCK START HERE -->
+		<div class="assistant_wrapper">
+			<div class="assistant_block">
+				<div class="text_wrapper">
+					<h2>Your very own kitchen assistant</h2>
+					<p>The Monsieur Cuisine édition plus brings an element of fun back to the kitchen. Cooking and baking are no longer chore involving hours.</p>
+				</div>
+				<div class="iamges_wrapper">
+					<img src="https://silvercrest-netizens.netlify.app/images/blender.png" alt="mixer blender">
+				</div>
+			</div>
+		</div>
+		<!--  ASSISTANT BLOCK START HERE -->
+
+		<!-- SPECIFICATIOND BLOCK CSS START HERE -->
+		<div class="specifications_wrapper">
+			<div class="container">
+				<div class="specifications_block">
+					<div>
+						<h2>Technical specifications</h2>
+						<img src="https://silvercrest-netizens.netlify.app/images/specifications.svg" alt="specifications">
+					</div>
+					<div>
+						<span><img src="https://silvercrest-netizens.netlify.app/images/icon-1.svg" alt="icon"></span>
+						<p>Cooking function: 1,000 Watts</p>
+					</div>
+					<div>
+						<span><img src="https://silvercrest-netizens.netlify.app/images/icon-2.svg" alt="icon"></span>
+						<p>Mixing: 800 Watts</p>
+					</div>
+					<div>
+						<span><img src="https://silvercrest-netizens.netlify.app/images/icon-3.svg" alt="icon"></span>
+						<p>Rotation speed: approx. 120 to 5,200 rotations per minute</p>
+					</div>
+					<div>
+						<span><img src="https://silvercrest-netizens.netlify.app/images/icon-4.svg" alt="icon"></span>
+						<p>Temperature setting adjustable in 5°C increments for precise cooking </p>
+					</div>
+					<div>
+						<span><img src="https://silvercrest-netizens.netlify.app/images/icon-5.svg" alt="icon"></span>
+						<p>Temperature adjustment from 37°C to 130°C</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- SPECIFICATIOND BLOCK END'S HERE -->
+
+		<!-- GALLERY BLOCK START HERE -->
+		<div class="gallery_wrapper">
+			<div class="container">
+				<h2>Picture gallery</h2>
+				<div class="gallery_block">
+					<div>
+						<img src="https://silvercrest-netizens.netlify.app/images/gallery-1.png" alt="gallery">
+					</div>
+					<div>
+						<img src="https://silvercrest-netizens.netlify.app/images/gallery-2.png" alt="gallery">
+					</div>
+					<div>
+						<img src="https://silvercrest-netizens.netlify.app/images/gallery-3.png" alt="gallery">
+					</div>
+					<div>
+						<img src="https://silvercrest-netizens.netlify.app/images/gallery-4.png" alt="gallery">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- GALLERY BLOCK END'S HERE -->
+
+		<!-- FEATURES BLOCK CSS START HERE -->
+		<div class="features_wrapper">
+			<div class="container">
+				<h2>Features</h2>
+				<div class="features_block">
+					<div>
+						<div class="icon_block">
+							<span><img src="https://silvercrest-netizens.netlify.app/images/icon-6.svg" alt="icon"></span>
+							<p>Large removable <br> stainless steel</p>
+						</div>
+						<div class="icon_block">
+							<span><img src="https://silvercrest-netizens.netlify.app/images/icon-7.svg" alt="icon"></span>
+							<p>90-minute <br> timer</p>
+						</div>
+					</div>
+					<div>
+						<img src="https://silvercrest-netizens.netlify.app/images/blender-2.png" alt="blender">
+					</div>
+					<div>
+						<div class="icon_block">
+							<span><img src="https://silvercrest-netizens.netlify.app/images/icon-8.svg" alt="icon"></span>
+							<p>Reverse <br> setting </p>
+						</div>
+						<div class="icon_block">
+							<span><img src="https://silvercrest-netizens.netlify.app/images/icon-9.svg" alt="icon"></span>
+							<p>Inbuilt kitchen <br> scales</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- FEATURES BLOCK CSS END'S HERE -->
+
+		<!-- ROUNDER BLOCK CSS START HERE -->
+		<div class="rounder_wrapper">
+			<div class="container">
+				<div class="rounder_block">
+					<div class="text_wrapper">
+						<h2>The kitchen all-rounder</h2>
+						<p>The Monsieur Cuisine édition plus is a single machine offering lots of practical functions.</p>
+					</div>
+					<div class="images_wrapper">
+						<img src="https://silvercrest-netizens.netlify.app/images/blender-3.png" alt="blender">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- ROUNDER BLOCK CSS END'S HERE -->
+
+	</section>
+	<!-- SECTION END'S HERE -->
+
+	<footer>
+		<div class="container">
+			<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.</p>
+			<h4>Affiliate</h4>
+		</div>
+	</footer>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<script>
+		function myFunction() {
+			var x = document.getElementById("select");
+			x.classList.add("active");
+		}
+
+		/* COUNT DOWN JS START HERE */	
+		window.onload = isTimeSet();	
+		function isTimeSet(){
+			//this function checks if there is a time set
+			if(localStorage.getItem("time") != null){
+				var time = localStorage.getItem("time");
+				document.getElementById("hiddenTime").value = time;
+			}else{
+				document.getElementById("hiddenTime").value = "1800";
+			}
+		}
+		var sec     = document.getElementById("hiddenTime").value,
+		countDiv    = document.getElementById("timer"),
+		secpass,
+		countDown   = setInterval(function () {
+				'use strict';				
+				secpass();
+		}, 1000);
+		function secpass() {
+			'use strict';			
+			var min     = Math.floor(sec / 60),remSec  = sec % 60;		
+			if (remSec < 10) {				
+				remSec = '0' + remSec;			
+			}
+			if (min < 10) {				
+				min = '0' + min;			
+			}
+			countDiv.innerHTML = min + ":" + remSec;			
+			if (sec > 0) {				
+				sec = sec - 1;
+				localStorage.setItem("time",sec);
+			} else {				
+				clearInterval(countDown);				
+				countDiv.innerHTML = '00:00';
+				localStorage.removeItem("time");				
+			}
+		}
+		/* COUNT DOWN JS END'S HREE */ 
+	</script>
+</body>
+</html>
+
+
