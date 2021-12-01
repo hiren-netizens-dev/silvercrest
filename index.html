@@ -12,7 +12,9 @@
 	<!-- FAVICON -->
 	<link href="https://silvercrest-netizens.netlify.app/images/favicon.svg" rel="shortcut icon" type="image/x-icon" />
 
-		<!-- LOCAL STYLE -->
+	
+
+	<!-- LOCAL STYLE -->
 	<link rel="stylesheet" href="https://silvercrest-netizens.netlify.app/style.css">
   
 </head>
@@ -39,10 +41,134 @@
 	<!-- SECTION START HERE -->
 	<section>
 
+		<!-- PRODUCT BLOCK START HERE -->
+		<div class="product_wrapper">
+			<div class="container"> <!-- CONTAINER START -->
+				<div class="product_block">
 
+					<!-- LEFT SIDE BLOCK START HERE -->
+					<div class="form_wrapper">
+						<div class="product_title">
+							<h1>The Monsieur <br> Cuisine édition plus <br> - the multi - talent</h1>
+						</div>
+						<!-- FORM BLOCK START HERE -->
+						<div class="form_block">
+							<form action="#!" method="POST">
+								<div class="row">
+									<div class="col-12">										
+										<div class="title">
+											<label>Fill In your Information</label>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-6">
+										<!-- FIRST NAME FORM GROUP START -->
+										<div class="form-group">
+											<input type="text" name="firstname" placeholder="First Name" class="form-control" required>
+										</div>
+										<!-- FIRST NAME FORM GROUP END'S -->
+									</div>
+									<div class="col-6">
+										<!-- LAST NAME FORM GROUP START -->
+										<div class="form-group">
+											<input type="text" name="lastname" placeholder="Last Name" class="form-control" required>
+										</div>
+										<!-- LAST NAME FORM GROUP END'S -->
+									</div>
+								</div>
+								<!-- ADDRESS FORM GROUP START -->
+								<div class="form-group">
+									<input type="text" name="address" class="form-control" placeholder="Address" required>
+								</div>
+								<!-- ADDRESS FORM GROUP END'S -->
+								<div class="row">
+									<div class="col-6">
+										<!-- ZIP CODE FORM GROUP START -->
+										<div class="form-group">
+											<input type="text" name="zipcode" class="form-control" placeholder="Zip Code" required>
+										</div>
+										<!-- ZIP CODE FORM GROUP END'S -->
+									</div>
+									<div class="col-6">
+										<!-- CITY FORM GROUP START -->
+										<div class="form-group">
+											<input type="text" name="city" class="form-control" placeholder="City" required>
+										</div>
+										<!-- CITY FORM GROUP END'S -->
+									</div>
+								</div>
+								<!-- STATE FORM GROUP START -->
+								<div class="form-group">
+									<select class="form-control" name="state" required="" id="select" onchange="myFunction()">
+										<option value="" disabled selected>State</option>
+										<option value="AL">Alabama</option>
+										<option value="AK">Alaska</option>
+										<option value="AZ">Arizona</option>
+										<option value="AR">Arkansas</option>
+										<option value="CA">California</option>
+										<option value="CO">Colorado</option>
+										<option value="CT">Connecticut</option>
+										<option value="DE">Delaware</option>
+										<option value="DC">District of Columbia</option>
+										<option value="FL">Florida</option>
+										<option value="GA">Georgia</option>
+										<option value="HI">Hawaii</option>
+									</select>
+								</div>
+								<!-- STATE FORM GROUP END'S -->
+								<!-- PHONE FORM GROUP START -->
+								<div class="form-group">
+									<input type="number" name="phone" class="form-control" placeholder="Phone" required>
+								</div>
+								<!-- PHONE FORM GROUP END'S -->
+								<!-- E-MAIL FORM GROUP START -->
+								<div class="form-group">
+									<input type="email" name="email" class="form-control" placeholder="E-mail" required>
+								</div>
+								<!-- E-MAIL FORM GROUP END'S -->
+								<!-- FORM CHECK BOX START -->
+								<div class="form-group">
+									<div class="form-check">
+										<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required>
+										<label class="form-check-label" for="flexCheckDefault">
+											I am Over 18 years old and accept Terms of Services
+										</label>
+									  </div>
+								</div>
+								<!-- FORM CHECK BOX END'S -->
+								<!-- FORM SUBMIT BUTTON START -->
+								<button type="submit" class="btn">Register Now</button>
+								<!-- FORM SUBMIT BUTTON END'S -->
+							</form>
+						</div>
+						<!-- FORM BLOCK END'S HERE -->
+					</div>
+					<!-- LEFT SIDE BLOCK END'S HERE -->
+					
+					<!-- RIGHT SIDE BLOCK START HERE -->
+					<div class="images_wrapper">
+						<div class="product_title">
+							<!-- <label>Here is the brand new</label> -->
+							<h1>The Monsieur <br> Cuisine édition plus <br> - the multi - talent</h1>
+						</div>
+						<div id="black" class="img-tab active">
+							<img src="https://silvercrest-netizens.netlify.app/images/silvercrest.png" alt="silvercrest mixer">
+							<div class="price_block">
+								<span>PREMIUM</span>
+								<h2>$13.99</h2>
+							</div>
+						</div>
+						<!-- IF YOU ADD MORE DIV(IMAGES) HERE THAN YOU WANT TO CREATE  -->
+					</div>
+					<!-- RIGHT SIDE BLOCK START HERE -->
+				</div>
+			</div> <!-- CONTAINER END'S -->
+		</div>
+		<!-- PRODUCT BLOCK END'S HERE -->
 
 		<!--  ASSISTANT BLOCK START HERE -->
-		<div class="assistant_wrapper">
+		<div class="assistant">
 			<div class="assistant_block">
 				<div class="text_wrapper">
 					<h2>Your very own kitchen assistant</h2>
@@ -168,7 +294,8 @@
 			<h4>Affiliate</h4>
 		</div>
 	</footer>
-
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 	<script>
 		function myFunction() {
