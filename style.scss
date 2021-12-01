@@ -20,7 +20,6 @@ $Bold : 700;
   -webkit-tap-highlight-color: transparent;
   -tap-highlight-color: transparent;
   -moz-tap-highlight-color: transparent;
-  font-display: swap;
   -webkit-appearance: none;
   font-family: $Poppins;
 }
@@ -30,7 +29,6 @@ body {
   box-sizing: border-box;
   font-family: $Poppins;
   font-weight: $Regular;
-  font-display: swap;
   overflow-x: hidden;
   scroll-behavior: smooth;
   background: #F9F9F9;
@@ -183,8 +181,8 @@ p{
         display: flex;
         justify-content: center;
         align-items: center;
-        p {
-            font-size: 17px;
+        .timing {
+            font-size: 17px; 
             font-weight: 300;
             line-height: 22px;
             color: $white;

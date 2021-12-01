@@ -8,7 +8,6 @@
   -webkit-tap-highlight-color: transparent;
   -tap-highlight-color: transparent;
   -moz-tap-highlight-color: transparent;
-  font-display: swap;
   -webkit-appearance: none;
   font-family: "Poppins", sans-serif;
 }
@@ -18,7 +17,6 @@ body {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-display: swap;
   overflow-x: hidden;
   scroll-behavior: smooth;
   background: #F9F9F9;
@@ -223,7 +221,7 @@ p {
           align-items: center;
 }
 
-.topbar.topbar2 p {
+.topbar.topbar2 .timing {
   font-size: 17px;
   font-weight: 300;
   line-height: 22px;
@@ -232,7 +230,7 @@ p {
 }
 
 @media screen and (max-width: 575px) {
-  .topbar.topbar2 p {
+  .topbar.topbar2 .timing {
     font-size: 14px;
   }
 }
