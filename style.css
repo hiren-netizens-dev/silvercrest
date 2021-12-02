@@ -259,7 +259,7 @@ p {
 .product_wrapper {
   margin: 0;
   padding: 104px 0 0;
-  background: url(https://silvercrest-netizens.netlify.app/images/banner.png) no-repeat center;
+  background: url(https://silvercrest-netizens.netlify.app/images/banner.webp) no-repeat center;
   background-size: cover;
   position: relative;
 }
@@ -284,7 +284,7 @@ p {
 
 .product_wrapper:before {
   content: "";
-  background: rgba(183, 30, 58, 0.89) url(https://silvercrest-netizens.netlify.app/images/banner-mockup.png) no-repeat;
+  background: rgba(183, 30, 58, 0.89) url(https://silvercrest-netizens.netlify.app/images/banner-mockup.webp) no-repeat;
   background-position: top 0 left 0;
   background-size: contain;
   width: 100%;
