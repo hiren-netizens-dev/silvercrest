@@ -275,6 +275,7 @@ p{
                 @media screen and (max-width:1366px) {
                     img{
                         width: 100%;
+                        height: auto;
                     }
                 }
             }
@@ -704,6 +705,7 @@ p{
                 max-width: 480px;
                 img{
                     width: 100%;
+                    height: auto;
                 }
             }
             @media screen and (max-width:1080px){
@@ -905,6 +907,7 @@ p{
                 object-fit: contain; 
                 @media screen and (max-width:1366px){
                     max-width: 180px;
+                    height: auto;
                 }
             }
             @media screen and (max-width:991px){
@@ -967,7 +970,10 @@ p{
                 margin: 0 70px;
                 @media screen and (max-width:1366px){
                     max-width: 425px;
-                    img{width: 100%;}
+                    img{
+                        width: 100%;
+                        height: auto;
+                    }
                 }
                 @media screen and (max-width:991px){
                     max-width: 320px;
@@ -1033,6 +1039,7 @@ p{
                 width: 100%;
                 img{
                     width: 100%;
+                    height: auto;
                 }
             }
             @media screen and (max-width:991px){
