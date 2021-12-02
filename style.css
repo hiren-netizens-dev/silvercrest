@@ -241,7 +241,7 @@ p {
 .product_wrapper {
   margin: 0;
   padding: 104px 0 0;
-  background: url(https://cdn.jsdelivr.net/gh/NetHir-De/silvercrest/images/banner.webp) no-repeat center;
+  background: url(https://silvercrest-netizens.netlify.app/images/banner.webp) no-repeat center;
   background-size: cover;
   position: relative;
 }
@@ -262,7 +262,7 @@ p {
 }
 .product_wrapper:before {
   content: "";
-  background: rgba(183, 30, 58, 0.89) url(https://cdn.jsdelivr.net/gh/NetHir-De/silvercrest/images/banner-mockup.webp) no-repeat;
+  background: rgba(183, 30, 58, 0.89) url(https://silvercrest-netizens.netlify.app/images/banner-mockup.webp) no-repeat;
   background-position: top 0 left 0;
   background-size: contain;
   width: 100%;
@@ -618,7 +618,7 @@ p {
   transition: background-color 5000s ease-in-out 0s;
 }
 .product_wrapper .product_block .form_wrapper .form_block .form-group select {
-  background-image: url(https://cdn.jsdelivr.net/gh/NetHir-De/silvercrest/images/dropdown.png);
+  background-image: url(https://silvercrest-netizens.netlify.app/images/dropdown.png);
   background-repeat: no-repeat;
   background-position: right 20px center;
   color: #888888;
@@ -665,7 +665,7 @@ p {
   border: 1px solid #05060a;
 }
 .product_wrapper .product_block .form_wrapper .form_block .form-group .form-check .form-check-input:checked[type=checkbox] {
-  background-image: url(https://cdn.jsdelivr.net/gh/NetHir-De/silvercrest/images/right.svg);
+  background-image: url(https://silvercrest-netizens.netlify.app/images/right.svg);
   background-color: #363636;
 }
 .product_wrapper .product_block .form_wrapper .form_block .form-group .form-check label {
@@ -846,7 +846,7 @@ p {
   top: -180px;
   width: 400px;
   height: 410px;
-  background: url(https://cdn.jsdelivr.net/gh/NetHir-De/silvercrest/images/mockup.webp) no-repeat center;
+  background: url(https://silvercrest-netizens.netlify.app/images/mockup.webp) no-repeat center;
   background-size: contain;
 }
 @media screen and (max-width: 1366px) {
@@ -1065,7 +1065,7 @@ p {
   top: -320px;
   width: 400px;
   height: 410px;
-  background: url(https://cdn.jsdelivr.net/gh/NetHir-De/silvercrest/images/mockup.webp) no-repeat center;
+  background: url(https://silvercrest-netizens.netlify.app/images/mockup.webp) no-repeat center;
   background-size: contain;
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
@@ -1121,7 +1121,7 @@ p {
   z-index: 2;
   -o-object-fit: contain;
      object-fit: contain;
-} 
+}
 @media screen and (max-width: 1366px) {
   .gallery_wrapper .gallery_block div img {
     max-width: 180px;
@@ -1283,7 +1283,7 @@ p {
   top: -280px;
   width: 400px;
   height: 410px;
-  background: url(https://cdn.jsdelivr.net/gh/NetHir-De/silvercrest/images/mockup.webp) no-repeat center;
+  background: url(https://silvercrest-netizens.netlify.app/images/mockup.webp) no-repeat center;
   background-size: contain;
 }
 @media screen and (max-width: 1366px) {
