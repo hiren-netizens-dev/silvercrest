@@ -951,7 +951,7 @@ p {
   top: -180px;
   width: 400px;
   height: 410px;
-  background: url(https://silvercrest-netizens.netlify.app/images/mockup.png) no-repeat center;
+  background: url(https://silvercrest-netizens.netlify.app/images/mockup.webp) no-repeat center;
   background-size: contain;
 }
 
@@ -1198,7 +1198,7 @@ p {
   top: -320px;
   width: 400px;
   height: 410px;
-  background: url(https://silvercrest-netizens.netlify.app/images/mockup.png) no-repeat center;
+  background: url(https://silvercrest-netizens.netlify.app/images/mockup.webp) no-repeat center;
   background-size: contain;
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
@@ -1437,7 +1437,7 @@ p {
   top: -280px;
   width: 400px;
   height: 410px;
-  background: url(https://silvercrest-netizens.netlify.app/images/mockup.png) no-repeat center;
+  background: url(https://silvercrest-netizens.netlify.app/images/mockup.webp) no-repeat center;
   background-size: contain;
 }
 
